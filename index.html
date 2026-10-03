@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESTOR DE ANÁLISE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="alinhamento-topo">
+        <a href="#inicio">Início</a>
+        <a href="#modulos">Módulos</a>
+        <a href="#sobre">Sobre</a>
+       
+    </nav>
+    <header id="inicio">
+
+        <p class="centralizado">GESTOR DE ANÁLISE </p>
+ <h1 class="centralizado">Escritório de Prática Jurídica</h1>
+    </header>
+    <main>
+        <p class="observacao">Plataforma de cadastro e apoio em processos de análise de demanda jurídica </p>
+        <section id="modulos">
+            <table class="tabela-modulos">
+                <tr>
+                    <th colspan="2" class="centralizado">Módulos do Sistema</th>
+                </tr>
+                <tr>
+                    <td><a href="#dados">Dados</a></td>
+                    <td><a href="#calculadora">Cálculos</a></td>
+                </tr>
+                <tr>
+                    <td><a href="#analise-demandas">Análise de demandas</a></td>
+                    <td><a href="#resumo-demanda">Resumo da demanda</a></td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="dados">
+
+            <h2>Dados</h2>
+            <form>
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome">
+                </div>
+                <div class="campo">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" id="cpf" name="cpf">
+                </div>
+
+                <div class="campo">
+                    <label for="data_nasc">Data de Nascimento:</label>
+                    <input type="date" id="data_nasc" name="data_nasc">
+                </div>
+
+                <div class="campo">
+                    <label for="estado-civil">Estado Civil</label>
+                    <select>
+                        <option value="">Selecione uma opção</option>
+                        <option value="solteiro">Solteiro</option>
+                        <option value="casado">Casado</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="endereco">Endereço:</label>
+                    <input type="text" id="endereco" name="endereco">
+                </div>
+
+
+
+                <div class="campo">
+                    <label for="Data_Ingresso">Data Ingresso Serviço Público:</label>
+                    <input type="date" id="Data_Ingresso" name="Data_Ingresso">
+                </div>
+
+                <div class="campo">
+                    <label for="Situação Funcional">Situação Funcional:</label>
+                    <select>
+                        <option value="">Selecione uma opção</option>
+                        <option value="ativo">Ativo</option>
+                        <option value="aposentado">Aposentado</option>
+                        <option value="inativo">Inativo</option>
+                        <option value="outro">Exonerado/demitido</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="observacao">Observação</label>
+                    <textarea id="observacao" name="observacao" rows="5"></textarea>
+                </div>
+                <div> <button type="submit"> Confirmar dados</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="calculadora">
+            <h2>Cálculos</h2>
+            <ul>
+                <li>Requisitos para aposentadoria</li>
+                <li>Reajuste de gratificação por pontos</li>
+                <li>Reajuste de gratificação por percentual</li>
+
+            </ul>
+        </section>
+
+        <section id="analise-demandas">
+            <h2>Análise de Demandas</h2>
+            <ol>
+                <li>Aposentadoria</li>
+                <li>Licença Prêmio</li>
+                <li>Abono de Permanência</li>
+                <li>Revisão de benefício</li>
+                <li>Cobrança</li>
+            </ol>
+        </section>
+
+        <section id="resumo-demanda">
+            <h2>Resumo da demanda</h2>
+            <p class="observacao">Em construção</p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p> Este sistema foi desenvolvido para auxiliar na análise de oportunidades jurídicas para o cliente, com
+                base em múltiplos fatores, levando em conta os diferentes contextos da vida funcional do servidor
+                público
+                e/ou seus dependentes. O objetivo final é que o sistema tenha a capacidade de coleta, processamento e
+                visualização de dados de
+                forma eficiente, rápida e intuitiva.</p>
+        </section>
+    </main>
+    <footer>
+        <p class="centralizado">© 2026 Escritório de Prática Jurídica. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+
+<!-- Site de referência: https://www.idalegal.org/ -->
+<!-- Prompt de referência Quero desenvolver, passo a passo, o projeto acadêmico Análise, uma página inicial em HTML e CSS que futuramente será publicada no GitHub Pages.
+Não quero que você gere o projeto pronto. Antes de cada ação, explique o conceito e me oriente sobre o que devo fazer. Só depois que eu executar e entender, avançamos.
+Vamos começar pela preparação do ambiente e pelo primeiro arquivo HTML. Quero usar o Codex como assistente, mas eu mesmo construirei o código.-->
+
+</html>

@@ -1,0 +1,93 @@
+body {
+    color: ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    /* Zera as margens superior/inferior e centraliza a página horizontalmente na tela */
+    max-width: 1100px;
+    /* Limita a largura máxima da página em 1100 pixels para o conteúdo não espalhar demais em telas grandes */
+    padding: 24px;
+    /* Cria um espaçamento interno de 24 pixels entre a borda da página e o conteúdo */
+    box-sizing: border-box;
+    /* Garante que o padding e as bordas sejam calculados dentro da largura total de 1100px, evitando que a página estoure */
+    background-color: #FFFFF0;
+}
+
+p {
+    text-align: justify;
+}
+
+.alinhamento-topo {
+    text-align: right;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #e7e30b;
+    color: #0B1F3A;
+    padding: 6px 24px;
+    border-radius: 12px;
+    gap: 20px;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+main {
+    text-align: justify;
+
+}
+
+.observacao {
+    font-size: smaller
+}
+
+.align_esq {
+    text-align: left;
+}
+
+.align_center {
+    align-items: center;
+}
+
+.tabela-modulos {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+}
+
+.tabela-modulos th,
+.tabela-modulos td {
+    background-color: #FFFFF0;
+    border: 1px solid #E6E0D4;
+    border-radius: 12px;
+    padding: 16px;
+}
+
+section#modulos {
+    background-color: #0B1F3A;
+    border: 1px solid #E6E0D4;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 24px 0;
+}
+
+section {
+    background-color: #FFFFFF;
+    border: 1px solid #E6E0D4;
+    border-radius: 12px;
+    padding: 6px;
+    margin: 24px 0;
+    scroll-margin-top: 80px;
+}
+
+.campo {
+    align-items: center;
+    display: grid;
+    margin-bottom: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit
+}
